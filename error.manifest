@@ -1,0 +1,15 @@
+
+ cache manifest
+ #2012-02-21 v1.0.0
+ 
+ cache:
+ /index.html
+ /theme.css
+ /logo.gif
+ /main.js
+ 
+ network:
+ login.asp
+ 
+ fallback:
+ /html//offline.html

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+</head>
+
+<body>
+    <form action="index.html" novalidate method="GET" enctype="multipart/form-data" >
+        <fieldset>
+            <legend>Person</legend>
+                <p>Your name:<input type="text" required name="login" id="login-field"></p>
+				
+                <p>Your email:<input type="email" required name="email"id="email-field"></p>
+				
+                <p>Your password:<input type="password" required name="password"id="password-field"></p>
+				
+                <p>Your age:<input type="number" name="points"
+                min="0" max="100" step="1" value="20"></p>
+                <br>				
+        </fieldset>
+		
+		<fieldset>
+            <legend>choose number</legend>
+                <p><input type="radio" required name="radio" value="1">Man</p>
+				
+				 <p><input type="radio" required name="radio" value="2">Woman</p>
+				
+				
+				
+        </fieldset>
+		
+		<fieldset>
+            <legend>select</legend>
+			<textarea name="info" rows="4"></textarea>
+        </fieldset>
+		
+		<fieldset>
+            <legend>URL</legend>
+			<input type="file"name="doc">
+		<input type="range" min="0" max="100" step="1" value="50"> 
+        </fieldset>
+		
+		<fieldset>
+		<input type="submit" value="Reset">
+		<input type="submit" value="Submit">
+		<input type="submit" value="Do Nothing">
+        </fieldset>		
+	</form>	
+</body>
+  
+</html>
