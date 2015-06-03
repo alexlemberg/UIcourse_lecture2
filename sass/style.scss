@@ -1,9 +1,18 @@
+$ghostyellow: rgba(255,255,0,.5);
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
 body{
 background-color:#269FEF;
-
 }
+
 .menu{
-background:background: rgb(64,150,238);
+background: rgb(64,150,238);
 background: -moz-linear-gradient(top,  rgba(64,150,238,1) 21%, rgba(234,228,63,1) 90%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(21%,rgba(64,150,238,1)), color-stop(90%,rgba(234,228,63,1))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  rgba(64,150,238,1) 21%,rgba(234,228,63,1) 90%); /* Chrome10+,Safari5.1+ */
@@ -28,7 +37,7 @@ padding:20px 0px 20px 0px;
 background-color:rgba(255,255,255,.3);
 }
 .articles{
-background-color:ghostyellow;
+background-color:$ghostyellow;
 border:2px solid yellow;
 border-radius:15px;
 padding:10px;
@@ -49,7 +58,7 @@ background-color:green;
 float:right;
 }
 .list{
-background-color:ghostyellow;
+background-color:$ghostyellow;
 border:2px solid yellow;
 border-radius:15px;
 padding:10px;

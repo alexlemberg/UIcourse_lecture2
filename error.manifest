@@ -1,14 +1,15 @@
 CACHE MANIFEST
- #2012-02-21 v1.0.1
- 
- CACHE:
- /index.html
- css/style.css
- /message.html
- /main.js
- 
+# version 1
+
+index.html
+message.html
+sass/style.css
+js/app.js
+js/db.js	
+js/offline.js
+
 NETWORK:
- login.asp
- 
+*
+
 FALLBACK:
- /html//offline.html
+*
